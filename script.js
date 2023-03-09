@@ -58,7 +58,7 @@ fetch(ip_url).then(results => results.json)
     e.preventDefault()
 
     if (entered_ip.value != '' && entered_ip.value != null) {
-        getIPDetails(entered_ip.value)
+        getIpDetails(entered_ip.value)
         return
     }
     alert("Please enter a valid IP address");
