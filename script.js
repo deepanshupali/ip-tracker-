@@ -31,7 +31,7 @@ updateMarker = (update_marker = [-33.665, 18.993]) => {
 document.addEventListener('load', updateMarker())
 
 
-getIpDetails = (defaultIp) =>{
+let getIpDetails = (defaultIp) =>{
 if(defaultIp == undefined){
    var ip_url =  "https://geo.ipify.org/api/v2/country,city?apiKey=at_vMXW8jlrTtq9MoyjXol3dGSL6T3T9"
 }
