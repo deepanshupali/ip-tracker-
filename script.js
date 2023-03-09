@@ -7,7 +7,7 @@ const current_time = document.getElementById("current_time")
 const current_isp = document.getElementById("current_isp")
 
 //targeting form
-const entered_ip = document.getElementById("input")
+const entered_ip = document.getElementById("ip_address")
 const btn = document.getElementById("search_btn")
 
 
